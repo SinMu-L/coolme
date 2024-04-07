@@ -26,4 +26,5 @@ export default defineConfig({
     ]
   },
   cleanUrls: true,
+  outDir: '../dist'
 })
