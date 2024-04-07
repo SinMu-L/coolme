@@ -1,5 +1,4 @@
 name: GitHub Actions Build and Deploy
-
 # 触发条件
 on:
   # push 到指定分支
@@ -7,9 +6,9 @@ on:
     branches:
       - master
     # 只在下列路径变更时触发
-    paths:
-      - 'docs/**'
-      - 'package.json'
+    # paths:
+    #   - 'docs/**'
+    #   - 'package.json'
 
 # 设置权限
 permissions:
