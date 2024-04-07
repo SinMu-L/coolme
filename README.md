@@ -2,6 +2,10 @@
 
 使用仪表板创建新项目并更改这些设置：
 
-构建命令： npm run docs:build
-输出目录： docs/.vitepress/dist
-node 版本： 18 (或更高版本)
+还是利用 github Action 来将构建后的代码发布到`vercel-page`分支()，然后vercel部署 `vercel-page` 分支
+> vercel-page 的名字随意
+
+
+站点tab图标需要放到`/docs/public` 路径下
+
+

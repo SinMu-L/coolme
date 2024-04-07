@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "CoolMe",
-  description: "向往自由的追风人",
+  description: "自由的追风人",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
