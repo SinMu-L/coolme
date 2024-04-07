@@ -23,9 +23,6 @@ jobs:
   build-and-deploy:
     # 服务器环境：最新版 ubuntu
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [20]
     steps:
       # 拉取代码
       - name: Checkout
@@ -60,7 +57,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          # GitHub Pages 读取的分支
-          branch: gh-pages
+          # vercel 读取的分支
+          branch: vercel-page
           # 静态文件所在目录
           folder: dist
